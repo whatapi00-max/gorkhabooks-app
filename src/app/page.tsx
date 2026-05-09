@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import AutoRedirect from "@/components/AutoRedirect";
 import HeroSection from "@/components/home/HeroSection";
 import LiveTickerSection from "@/components/home/LiveTickerSection";
 import TrendingGamesSection from "@/components/home/TrendingGamesSection";
@@ -223,7 +222,6 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-      <AutoRedirect />
       <HeroSection />
       <LiveTickerSection />
       <TrendingGamesSection />

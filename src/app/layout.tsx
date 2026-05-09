@@ -6,6 +6,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import AutoRedirect from "@/components/AutoRedirect";
 import ScrollProgress from "@/components/ScrollProgress";
 import NotificationPopup from "@/components/NotificationPopup";
 import MobileBottomCTA from "@/components/MobileBottomCTA";
@@ -474,6 +475,7 @@ export default function RootLayout({
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
+        <AutoRedirect />
         <ScrollProgress />
         <Navbar />
         <TrustBar />
