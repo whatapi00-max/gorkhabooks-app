@@ -3,7 +3,6 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   compress: true,
   poweredByHeader: false,
-  distDir: ".next",
   images: {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [
@@ -13,7 +12,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  trailingSlash: true,
 };
 
 export default nextConfig;
