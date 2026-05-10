@@ -362,7 +362,7 @@ const jsonLd = {
     "reviewCount": "12480",
   },
   "sameAs": [
-    "https://wa.link/gorkha_in",
+    "https://wa.link/gme782",
     "https://t.me/GorkhaBooks",
   ],
   "hasOfferCatalog": {
