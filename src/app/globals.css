@@ -184,6 +184,15 @@ body {
   animation-play-state: paused;
 }
 
+/* Announcement banner marquee */
+@keyframes marqueeAnnouncement {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.marquee-announcement {
+  animation: marqueeAnnouncement 20s linear infinite;
+}
+
 /* Notification slide-in */
 @keyframes slideInLeft {
   from { transform: translateX(-100%); opacity: 0; }
