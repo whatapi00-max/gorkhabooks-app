@@ -5,7 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export const WHATSAPP_URL = "https://wa.me/9779800000000";
+export const WHATSAPP_URL = "https://wa.link/gorkha_in";
 
 export function openWhatsApp(message?: string) {
   const url = message
