@@ -1,6 +1,6 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
-import { MessageCircle, Zap, Shield, Star, Trophy, Flame } from "lucide-react";
+import { MessageCircle, Zap, Shield, Star, Trophy, Flame, Award, BadgeCheck } from "lucide-react";
 import { openWhatsApp } from "@/lib/utils";
 import { useEffect, useState } from "react";
 import Image from "next/image";
@@ -47,6 +47,14 @@ const FEATURES = [
   { icon: "⚽", label: "Football Odds",  ne: "फुटबल अड्स" },
   { icon: "🎮", label: "Esports Tournaments", ne: "इस्पोर्ट्स" },
   { icon: "🎰", label: "Live Casino",    ne: "लाइभ क्यासिनो" },
+];
+
+const TRUST_MESSAGES = [
+  { icon: Award, text: "आयो गोर्खाली", color: "text-amber-400" },
+  { icon: BadgeCheck, text: "१००% विश्वासिलो साइट", color: "text-green-400" },
+  { icon: Star, text: "नेपालको नम्बर वान अनलाइन गेमिङ साइट", color: "text-rose-400" },
+  { icon: Shield, text: "नेपाल सरकारबाट मान्यता प्राप्त गेमिङ साइट", color: "text-cyan-400" },
+  { icon: Zap, text: "१ मिनेट डिपोजिट · ५ मिनेट तत्काल विथड्रल", color: "text-yellow-400" },
 ];
 
 export default function HeroSection() {
@@ -160,10 +168,43 @@ export default function HeroSection() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.35 }}
-              className="text-gray-500 text-sm mb-8 sm:mb-10"
+              className="text-gray-500 text-sm mb-6"
             >
               नेपालभरका ५०,०००+ खेलाडीहरूसँग जोडिनुहोस् — सर्वोत्तम अड्स, तत्काल भुक्तानी, २४/७ सपोर्ट।
             </motion.p>
+
+            {/* Trust Messages Banner */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.45, duration: 0.5 }}
+              className="mb-6 sm:mb-8"
+            >
+              <div className="relative overflow-hidden rounded-xl bg-gradient-to-r from-red-900/90 via-red-800/90 to-red-900/90 border border-amber-500/50 p-3 sm:p-4">
+                <div className="flex flex-col gap-2">
+                  {TRUST_MESSAGES.map((msg, i) => {
+                    const Icon = msg.icon;
+                    return (
+                      <motion.div
+                        key={i}
+                        initial={{ opacity: 0, x: -20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.5 + i * 0.1, duration: 0.4 }}
+                        className="flex items-center gap-2 sm:gap-3"
+                      >
+                        <span className={`flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-black/40 shrink-0`}>
+                          <Icon className={`w-3.5 h-3.5 sm:w-4 sm:h-4 ${msg.color}`} />
+                        </span>
+                        <span className="text-white text-xs sm:text-sm md:text-base font-bold tracking-wide drop-shadow-sm">
+                          {msg.text}
+                        </span>
+                        <span className="text-amber-400 text-sm sm:text-base">★</span>
+                      </motion.div>
+                    );
+                  })}
+                </div>
+              </div>
+            </motion.div>
 
             {/* Feature pills */}
             <motion.div
