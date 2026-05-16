@@ -20,11 +20,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "GorkhaBooks – नेपालको #१ अनलाइन गेमिङ, बेटिङ र इस्पोर्ट्स | gorkha.com",
+    default: "Online Betting Nepal | Best eSewa & Khalti Casino 2026 | GorkhaBooks",
     template: "%s | GorkhaBooks Nepal – gorkha.com",
   },
   description:
-    "GorkhaBooks (gorkha.com) – नेपालको सबैभन्दा भरोसेमान्य अनलाइन गेमिङ प्लेटफर्म। क्रिकेट, फुटबल, लाइभ क्यासिनो र PUBG/Free Fire टुर्नामेन्ट। eSewa र Khalti बाट जम्मा गर्नुहोस्। ५०,०००+ खेलाडीहरू। WhatsApp मा सित्तैमा जोडिनुहोस्! Nepal's #1 trusted online gaming, sports betting, live casino and esports platform for Nepali gamers.",
+    "GorkhaBooks – नेपालको #१ अनलाइन बेटिङ र क्यासिनो। eSewa, Khalti, IME Pay। IPL क्रिकेट, फुटबल, Teen Patti, Aviator। ५ मिनेटमा निकासी। Nepal's most trusted online betting site – fast withdrawal, real money casino, sports betting & live casino.",
   keywords: [
     // Brand core
     "GorkhaBooks", "gorkha.com", "GorkhaBooks Nepal", "Gorkha gaming Nepal",
@@ -236,6 +236,41 @@ export const metadata: Metadata = {
     "mega win nepal", "lucky bonus nepal", "instant bonus nepal", "exclusive bonus nepal", "seasonal promo nepal gaming",
     "nepal gaming festival offer",
     "instant payout Nepal", "best withdrawal speed Nepal",
+    // 2026 STRATEGY — High competition core
+    "best betting site Nepal", "real money games Nepal", "betting app Nepal",
+    "online gambling Nepal", "Nepal betting platform", "online wagering Nepal",
+    // 2026 STRATEGY — High conversion money keywords
+    "Khalti betting Nepal", "fast withdrawal casino Nepal",
+    "instant payout betting Nepal", "IME Pay betting Nepal",
+    "deposit bonus Nepal betting", "minimum deposit betting Nepal",
+    "withdraw winnings Nepal", "mobile wallet betting Nepal",
+    "same day withdrawal Nepal", "bank transfer betting Nepal",
+    "betting deposit methods Nepal", "Nepal rupees betting",
+    "no minimum deposit casino Nepal",
+    // 2026 STRATEGY — Medium competition long-tail
+    "how to bet online in Nepal", "best time to bet on IPL Nepal",
+    "Nepal cricket betting guide", "online casino with eSewa Nepal",
+    "betting sites that accept Khalti", "fast withdrawal betting Nepal",
+    "how to deposit on betting sites Nepal", "safest betting app Nepal 2026",
+    "beginner guide to online betting Nepal", "Nepal football betting tips",
+    "mobile betting Nepal guide", "best betting strategy Nepal",
+    "online casino minimum deposit Nepal", "Nepal sports betting for beginners",
+    "live casino Nepal review", "how to verify betting account Nepal",
+    "Nepal betting sites comparison", "which betting site pays fast Nepal",
+    "online betting age limit Nepal", "Nepal casino games explained",
+    // 2026 STRATEGY — Competitor target keywords
+    "best betting site Nepal vs MelBet", "MelBet Nepal alternative",
+    "1xBet Nepal vs GorkhaBooks", "better than 1xBet Nepal",
+    "Parimatch Nepal alternative", "safest betting platform Nepal comparison",
+    "trusted site vs MelBet Nepal", "Nepal betting site reviews 2026",
+    "top 10 betting sites Nepal 2026", "fastest payout vs competitors Nepal",
+    // 2026 STRATEGY — Casino games
+    "aviator game Nepal", "mines game Nepal", "Dragon Tiger Nepal",
+    "Rummy online Nepal", "how to play Teen Patti online Nepal",
+    "Aviator game Nepal strategy", "how to win aviator Nepal",
+    // 2026 STRATEGY — City targeting
+    "online betting Kathmandu", "online betting Pokhara",
+    "online betting Biratnagar", "online betting Nepalganj",
     // Nepali keywords
     "नेपालको भरोसेमान्य बुक", "कानूनी बेटिङ नेपाल", "सुरक्षित गेमिङ नेपाल",
     "निष्पक्ष खेल नेपाल", "अनलाइन बेटिङ नेपाल", "क्रिकेट बेटिङ नेपाल",
@@ -440,6 +475,41 @@ const faqJsonLd = {
       "@type": "Question",
       "name": "Does GorkhaBooks have a welcome bonus?",
       "acceptedAnswer": { "@type": "Answer", "text": "Yes! GorkhaBooks offers a 100% Welcome Bonus up to NPR 10,000 on your first deposit, plus weekly cashback, referral bonuses and VIP rewards. Join via WhatsApp to claim instantly." },
+    },
+    {
+      "@type": "Question",
+      "name": "Which is the best betting site in Nepal 2026?",
+      "acceptedAnswer": { "@type": "Answer", "text": "GorkhaBooks is Nepal's best betting site in 2026. It offers the highest odds, fastest payouts (5 minutes), eSewa & Khalti deposits, 100% welcome bonus, live casino, cricket & football betting, and 24/7 Nepali customer support. Trusted by 50,000+ verified players." },
+    },
+    {
+      "@type": "Question",
+      "name": "Can I bet using eSewa or Khalti in Nepal?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. GorkhaBooks fully supports eSewa, Khalti and IME Pay for both deposits and withdrawals. Simply deposit from your eSewa or Khalti wallet in seconds – no bank account needed. Minimum deposit is NPR 100." },
+    },
+    {
+      "@type": "Question",
+      "name": "How fast are withdrawals at GorkhaBooks Nepal?",
+      "acceptedAnswer": { "@type": "Answer", "text": "GorkhaBooks processes withdrawals in under 5 minutes via eSewa, Khalti and IME Pay. Same-day withdrawal is guaranteed for all verified accounts. It is the fastest withdrawal betting site in Nepal." },
+    },
+    {
+      "@type": "Question",
+      "name": "How do I start online betting in Nepal for the first time?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Starting online betting in Nepal is easy with GorkhaBooks: 1) Message us on WhatsApp, 2) Get registered instantly, 3) Deposit via eSewa or Khalti (min NPR 100), 4) Claim your 100% welcome bonus, 5) Place your first bet on cricket, football or casino games. You can start with just NPR 500." },
+    },
+    {
+      "@type": "Question",
+      "name": "How to play Aviator game in Nepal?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Aviator is a crash game available on GorkhaBooks. Place your bet before the plane takes off, then cash out before it flies away. The longer you wait, the higher the multiplier – but cash out before the crash! Play Aviator with real money using eSewa or Khalti on GorkhaBooks." },
+    },
+    {
+      "@type": "Question",
+      "name": "What is the minimum deposit for online betting in Nepal?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The minimum deposit at GorkhaBooks is NPR 100 via eSewa, Khalti or IME Pay. There is no minimum withdrawal limit. You can start betting in Nepal with as little as NPR 100 and get a 100% welcome bonus on your first deposit." },
+    },
+    {
+      "@type": "Question",
+      "name": "IPL 2026 betting Nepal – how to bet on IPL?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Bet on IPL 2026 at GorkhaBooks: choose your match, pick your market (match winner, top batsman, total runs etc.), enter your stake and confirm. IPL betting is available live with real-time odds. Deposit via eSewa or Khalti and get your winnings within 5 minutes." },
     },
   ],
 };

@@ -12,31 +12,47 @@ import StatsSection from "@/components/home/StatsSection";
 import FAQSection from "@/components/home/FAQSection";
 
 export const metadata: Metadata = {
-  title: "GorkhaBooks – नेपालको #१ अनलाइन गेमिङ, बेटिङ र इस्पोर्ट्स | gorkha.com",
+  title: "Online Betting Nepal | Best eSewa & Khalti Casino 2026 | GorkhaBooks",
   description:
-    "GorkhaBooks (gorkha.com) — नेपालको #१ भरोसेमान्य अनलाइन गेमिङ प्लेटफर्म। क्रिकेट, फुटबल, लाइभ क्यासिनो र PUBG/Free Fire टुर्नामेन्ट। eSewa, Khalti बाट जम्मा गर्नुहोस्। १००% Welcome Bonus — NPR १०,००० सम्म। ५०,०००+ खेलाडीहरू। WhatsApp मा सित्तैमा जोडिनुहोस्!",
+    "GorkhaBooks – नेपालको #१ अनलाइन बेटिङ र क्यासिनो। eSewa, Khalti, IME Pay बाट जम्मा गर्नुहोस्। IPL क्रिकेट, फुटबल, Teen Patti, Aviator। ५ मिनेटमा निकासी। १००% Welcome Bonus NPR १०,०००। ५०,०००+ खेलाडी। Nepal's #1 trusted online betting site with eSewa Khalti deposit – fast withdrawal, real money casino, sports betting & live casino.",
   alternates: { canonical: "https://gorkha.com" },
   keywords: [
     // Brand — नेपाली र अंग्रेजी
     "GorkhaBooks", "गोर्खाबुक्स", "gorkha.com", "Gorkha bet Nepal",
     "GorkhaBooks Nepal 2026", "Gorkha gaming Nepal", "गोर्खा गेमिङ",
     "नेपाल गेमिङ साइट", "Nepal gaming site 2026", "Gorkha online betting",
+    // HIGH COMPETITION CORE — Phase 1 targets
+    "online betting Nepal", "best betting site Nepal", "online casino Nepal",
+    "sports betting Nepal", "real money games Nepal", "betting app Nepal",
+    "live betting Nepal", "online gambling Nepal", "trusted betting site Nepal",
+    "best casino site Nepal", "Nepal betting platform", "secure betting Nepal",
+    "best odds Nepal", "instant betting Nepal", "Nepal gaming platform",
+    "online wagering Nepal", "licensed casino Nepal", "legal betting Nepal",
+    // HIGH CONVERSION MONEY KEYWORDS
+    "eSewa betting Nepal", "Khalti betting Nepal", "fast withdrawal casino Nepal",
+    "instant payout betting Nepal", "real money casino Nepal", "IME Pay betting Nepal",
+    "deposit bonus Nepal betting", "minimum deposit betting Nepal",
+    "withdraw winnings Nepal", "mobile wallet betting Nepal",
+    "same day withdrawal Nepal", "bank transfer betting Nepal",
+    "betting deposit methods Nepal", "Nepal rupees betting",
+    "no minimum deposit casino Nepal",
     // Sports betting
-    "online betting Nepal", "cricket betting Nepal", "IPL 2026 betting Nepal",
+    "cricket betting Nepal", "IPL 2026 betting Nepal",
     "football betting Nepal", "kabaddi betting Nepal", "live sports betting Nepal",
     "best odds cricket Nepal", "नेपालमा क्रिकेट बेटिङ", "नेपालमा अनलाइन बेटिङ",
-    "WhatsApp betting Nepal", "NPR betting site", "eSewa betting Nepal",
-    "Khalti sports betting", "trusted betting site Nepal",
+    "WhatsApp betting Nepal", "NPR betting site",
+    "Khalti sports betting",
     // Casino
-    "live casino Nepal", "online casino Nepal", "Teen Patti Nepal",
+    "live casino Nepal", "Teen Patti Nepal",
     "Andar Bahar Nepal", "roulette Nepal", "नेपालमा लाइभ क्यासिनो",
-    "real money casino Nepal", "नेपालमा क्यासिनो खेल्नुहोस्",
+    "नेपालमा क्यासिनो खेल्नुहोस्", "aviator game Nepal", "crash game Nepal",
     // Esports
     "PUBG tournament Nepal", "Free Fire Nepal tournament", "BGMI Nepal",
     "Valorant Nepal", "esports Nepal 2026", "नेपाल इस्पोर्ट्स",
     "competitive gaming Nepal", "mobile gaming Nepal",
-    // Community & local
-    "Kathmandu gaming", "Pokhara betting", "Nepali gamers 2026",
+    // Community & local — Kathmandu, Pokhara, Biratnagar, Nepalganj
+    "betting site Kathmandu", "betting site Pokhara", "betting site Biratnagar",
+    "betting site Nepalganj", "Nepali gamers 2026",
     "नेपाली गेमर्स", "Nepal gamer community", "नेपालको भरोसेमान्य बेटिङ साइट",
     // Bonus & offers
     "100% welcome bonus Nepal", "NPR 10000 bonus", "free bonus betting Nepal",
@@ -216,6 +232,28 @@ export const metadata: Metadata = {
     "passive income gaming nepal", "earn from home nepal gaming", "best bonus site nepal", "biggest jackpot nepal",
     "mega win nepal", "lucky bonus nepal", "instant bonus nepal", "exclusive bonus nepal", "seasonal promo nepal gaming",
     "nepal gaming festival offer",
+    // MEDIUM COMPETITION LONG-TAIL — 2026 strategy
+    "how to bet online in Nepal", "best time to bet on IPL Nepal",
+    "Nepal cricket betting guide", "online casino with eSewa Nepal",
+    "betting sites that accept Khalti", "fast withdrawal betting Nepal",
+    "how to deposit on betting sites Nepal", "safest betting app Nepal 2026",
+    "beginner guide to online betting Nepal", "Nepal football betting tips",
+    "mobile betting Nepal guide", "best betting strategy Nepal",
+    "online casino minimum deposit Nepal", "Nepal sports betting for beginners",
+    "live casino Nepal review", "how to verify betting account Nepal",
+    "Nepal betting sites comparison", "which betting site pays fast Nepal",
+    "online betting age limit Nepal", "Nepal casino games explained",
+    // COMPETITOR TARGET KEYWORDS
+    "best betting site Nepal vs MelBet", "MelBet Nepal alternative",
+    "1xBet Nepal vs GorkhaBooks", "better than 1xBet Nepal",
+    "Parimatch Nepal alternative", "safest betting platform Nepal comparison",
+    "trusted site vs MelBet Nepal", "best odds Nepal comparison",
+    "fastest payout vs competitors Nepal", "Nepal betting site reviews 2026",
+    // QUICK WIN — Payment pages targets
+    "eSewa betting deposit Nepal", "Khalti casino deposit Nepal",
+    "IME Pay casino Nepal", "FonePay betting Nepal",
+    "how to pay with eSewa on betting site", "Khalti deposit betting guide Nepal",
+    "best withdrawal speed Nepal", "instant payout Nepal",
   ],
 };
 
