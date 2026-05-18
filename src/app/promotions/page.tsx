@@ -36,6 +36,12 @@ export const metadata: Metadata = {
     "GorkhaBooks promotions", "best bonus betting site Nepal 2026",
     "Gorkha gaming bonus", "casino bonus Nepal 2026",
     "नेपाल बोनस", "वेलकम बोनस नेपाल", "eSewa बोनस नेपाल",
+    // Payment methods
+    "deposit methods Nepal betting", "Nepal betting with eSewa",
+    "Nepal betting with Khalti", "Nepal betting bank transfer",
+    "Nepal betting site bonus", "betting site welcome offer Nepal",
+    "Nepal betting apps", "betting apps Nepal Android",
+    "betting apps Nepal iOS", "Nepal betting site registration",
   ],
 };
 

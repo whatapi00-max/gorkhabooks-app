@@ -66,6 +66,28 @@ export const metadata: Metadata = {
     "GorkhaBooks blog", "GorkhaBooks tips", "GorkhaBooks predictions",
     "Nepal betting news", "Nepal sports news 2026",
     "best betting blog Nepal", "Gorkha gaming blog", "gorkha.com blog",
+    // Question/FAQ keywords
+    "is betting legal in Nepal", "is online betting allowed in Nepal",
+    "is gambling legal in Nepal", "how does betting work in Nepal",
+    "what is the legal age for betting in Nepal",
+    "can Nepalese use international betting sites",
+    "how to start betting in Nepal", "how to register on a betting site in Nepal",
+    "how to deposit money for betting in Nepal",
+    "how to withdraw betting winnings in Nepal",
+    "is sports betting taxed in Nepal",
+    "which betting sites are available in Nepal",
+    "which betting sites accept Nepalese players",
+    // Core Nepal betting
+    "Nepal betting", "Nepal gambling", "Nepal sportsbook",
+    "Nepal odds", "Nepal casino", "Nepal wager", "Nepal lottery",
+    "Nepal bookmaker", "Nepal betting sites", "Nepal betting apps",
+    "Nepal online betting", "Nepal betting platform",
+    // Online betting Nepal
+    "online betting in Nepal", "online sports betting Nepal",
+    "online betting Nepal legal", "online betting Nepal for beginners",
+    "online gambling Nepal real money", "online betting Nepal mobile",
+    "internet betting Nepal", "real money betting Nepal",
+    "online betting Nepal payment methods",
   ],
 };
 

@@ -54,6 +54,29 @@ export const metadata: Metadata = {
     // Payments for sports
     "eSewa betting Nepal", "Khalti betting Nepal", "IME Pay betting Nepal",
     "fast withdrawal betting Nepal", "instant payout betting Nepal",
+    // Core Nepal sports betting
+    "Nepal betting", "Nepal sportsbook", "Nepal odds", "Nepal wager",
+    "Nepal betting sites", "Nepal betting apps", "Nepal online betting",
+    "Nepal betting platform", "Nepal betting tips", "Nepal betting guide",
+    "Nepal betting options", "Nepal betting market", "Nepal betting login",
+    "Nepal betting signup",
+    // Cricket betting Nepal
+    "Nepal cricket betting", "cricket betting in Nepal",
+    "Nepal cricket match betting", "IPL betting Nepal",
+    "T20 cricket betting Nepal", "cricket odds Nepal",
+    "live cricket betting Nepal", "Nepal national cricket team bet",
+    "Nepal cricket bet", "how to bet on cricket in Nepal",
+    // Football betting Nepal
+    "football betting Nepal", "Nepal football betting sites",
+    "Premier League betting Nepal", "Champions League betting Nepal",
+    "soccer betting Nepal", "football odds Nepal",
+    "live football betting Nepal", "Nepal football bet",
+    "how to bet on football in Nepal",
+    // Other sports
+    "kabaddi betting Nepal", "volleyball betting Nepal",
+    "basketball betting Nepal", "tennis betting Nepal",
+    "horse racing betting Nepal", "esports betting Nepal",
+    "virtual sports betting Nepal", "online sports betting Nepal",
   ],
 };
 

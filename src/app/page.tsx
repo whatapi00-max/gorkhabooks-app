@@ -254,6 +254,33 @@ export const metadata: Metadata = {
     "IME Pay casino Nepal", "FonePay betting Nepal",
     "how to pay with eSewa on betting site", "Khalti deposit betting guide Nepal",
     "best withdrawal speed Nepal", "instant payout Nepal",
+    // Core Nepal betting keywords
+    "Nepal betting", "Nepal gambling", "Nepal sportsbook", "Nepal odds",
+    "Nepal casino", "Nepal cricket bet", "Nepal football bet", "Nepal wager",
+    "Nepal lottery", "Nepal bookmaker",
+    // Nepal betting sites/apps/platform
+    "Nepal betting sites", "Nepal betting apps", "Nepal online betting",
+    "Nepal betting platform", "Nepal betting tips", "Nepal betting guide",
+    "Nepal betting options", "Nepal betting market", "Nepal betting login",
+    "Nepal betting signup",
+    // Best/top/trusted keywords
+    "best betting sites in Nepal", "best online betting sites Nepal",
+    "top betting sites Nepal", "trusted betting sites in Nepal",
+    "licensed betting sites Nepal", "safe betting sites Nepal",
+    "legal betting platforms Nepal", "new betting sites Nepal",
+    "betting sites that accept Nepal users", "betting sites with NPR currency",
+    "betting apps Nepal Android", "betting apps Nepal iOS",
+    "Nepal betting site registration", "Nepal betting site bonus",
+    "betting site welcome offer Nepal",
+    // Online betting Nepal
+    "online betting in Nepal", "online sports betting Nepal",
+    "online betting Nepal legal", "online betting Nepal for beginners",
+    "online gambling Nepal real money", "online betting Nepal mobile",
+    "internet betting Nepal", "real money betting Nepal",
+    "online betting Nepal payment methods",
+    // Payment methods
+    "deposit methods Nepal betting", "Nepal betting with eSewa",
+    "Nepal betting with Khalti", "Nepal betting bank transfer",
   ],
 };
 

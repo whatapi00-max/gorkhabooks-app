@@ -33,6 +33,20 @@ export const metadata: Metadata = {
     "age verification gaming nepal", "24/7 support nepal gaming",
     "नेपाल बेटिङ कम्पनी", "GorkhaBooks बारेमा", "कानूनी बेटिङ नेपाल",
     "भरोसेमान्य बेटिङ साइट नेपाल",
+    // Best/top/trusted legal keywords
+    "best betting sites in Nepal", "best online betting sites Nepal",
+    "top betting sites Nepal", "trusted betting sites in Nepal",
+    "licensed betting sites Nepal", "safe betting sites Nepal",
+    "legal betting platforms Nepal", "betting sites that accept Nepal users",
+    "betting sites with NPR currency", "Nepal betting site registration",
+    // Legal/safety
+    "online betting Nepal legal", "is betting legal in Nepal",
+    "is online betting allowed in Nepal", "is gambling legal in Nepal",
+    "what is the legal age for betting in Nepal",
+    "can Nepalese use international betting sites",
+    "is sports betting taxed in Nepal",
+    "which betting sites are available in Nepal",
+    "which betting sites accept Nepalese players",
   ],
 };
 
