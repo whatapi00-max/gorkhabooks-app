@@ -39,10 +39,10 @@ export default function PromotionsPageClient() {
               <span className="text-yellow-400 text-sm font-semibold">Exclusive Offers for Nepal Players</span>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4">
-              Promotions &amp; <span className="gradient-text-gold">Bonuses</span>
+              Nepal Betting Bonuses — eSewa, Khalti &amp; <span className="gradient-text-gold">Welcome Offers</span>
             </h1>
             <p className="text-gray-400 text-base md:text-xl max-w-2xl mx-auto mb-8">
-              We reward every player — from your very first deposit to your thousandth bet. Claim your bonuses now and multiply your winnings!
+              Get 100% welcome bonus up to NPR 10,000, weekly cashback, referral rewards, and VIP bonuses. Deposit via eSewa, Khalti, IME Pay and claim exclusive Nepal betting promotions with instant withdrawals.
             </p>
 
             {/* Highlight stats */}

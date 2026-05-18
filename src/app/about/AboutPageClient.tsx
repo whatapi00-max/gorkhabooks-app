@@ -41,10 +41,10 @@ export default function AboutPageClient() {
               <span className="text-yellow-400 text-sm font-semibold">Our Story</span>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6">
-              About <span className="gradient-text-gold">GorkhaBooks</span>
+              Nepal's Trusted & Legal <span className="gradient-text-gold">Betting Platform</span>
             </h1>
             <p className="text-gray-300 text-sm sm:text-base md:text-xl max-w-3xl mx-auto leading-relaxed px-2 sm:px-0">
-              Born in Nepal, built for Nepal. GorkhaBooks was founded with one mission — to bring world-class, fair, and exciting gaming experiences to every Nepali player, with the safety, trust, and support they deserve.
+              Born in Nepal, built for Nepal. GorkhaBooks is Nepal's #1 licensed and trusted betting site with 50,000+ verified players. Safe, legal, and secure sports betting, cricket, football, and live casino with eSewa/Khalti deposits and instant withdrawals.
             </p>
           </motion.div>
 

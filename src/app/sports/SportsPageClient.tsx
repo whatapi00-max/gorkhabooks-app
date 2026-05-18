@@ -40,10 +40,10 @@ export default function SportsPageClient() {
               <span className="text-green-400 text-sm font-semibold">Live Betting Available</span>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4">
-              Sports <span className="gradient-text-gold">Betting</span>
+              Nepal Sports <span className="gradient-text-gold">Betting</span> — IPL, Cricket & Football
             </h1>
             <p className="text-gray-400 text-base md:text-lg max-w-2xl mx-auto mb-8">
-              Bet on 1000+ matches daily across Cricket, Football, Tennis, Esports & more. Best odds in Nepal with instant payouts.
+              Bet on 1000+ matches daily across Nepal cricket betting, IPL 2026, football betting, kabaddi & esports. Best odds Nepal with eSewa/Khalti deposits and instant withdrawals.
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}

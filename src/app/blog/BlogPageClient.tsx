@@ -56,13 +56,13 @@ export default function BlogPageClient() {
               <span className="text-blue-400 text-sm font-semibold">Nepal&apos;s #1 Betting Tips Blog</span>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4">
-              Free Betting Tips &amp; <span className="gradient-text-gold">Cricket Predictions Nepal</span>
+              Nepal Betting Guide — How to Bet, Tips &amp; <span className="gradient-text-gold">Cricket Predictions</span>
             </h1>
             <p className="text-gray-400 text-base md:text-lg max-w-2xl mx-auto mb-3">
-              Daily free betting tips, IPL 2025 cricket predictions, football match previews, casino strategy guides and sports news — written by experts, exclusively for Nepal&apos;s players.
+              Daily free betting tips, IPL 2026 cricket predictions, football match previews, casino strategy guides, how to bet in Nepal step by step, betting odds explained, and sports news — written by experts, exclusively for Nepal&apos;s players.
             </p>
             <p className="text-gray-500 text-sm max-w-xl mx-auto">
-              Cricket satta tips · Football predictions · Teen Patti strategy · Kabaddi tips · eSewa &amp; Khalti betting guide
+              Nepal betting guide · Cricket satta tips · Football predictions · Teen Patti strategy · Kabaddi tips · eSewa &amp; Khalti betting guide · How to win at sports betting
             </p>
           </motion.div>
 

@@ -89,10 +89,10 @@ export default function CasinoPageClient() {
               <span className="text-purple-400 text-sm font-semibold">Premium Live Casino</span>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black text-white mb-4 leading-tight">
-              Live <span className="gradient-text-gold">Casino</span>
+              Nepal Online <span className="gradient-text-gold">Casino</span> — Teen Patti, Aviator & Live Games
             </h1>
             <p className="text-gray-400 text-base md:text-xl max-w-2xl mx-auto mb-8">
-              Real dealers, real tables, real winnings. Experience the thrill of a premium casino from anywhere in Nepal.
+              Real dealers, real tables, real winnings. Play Teen Patti, Aviator, Roulette, Blackjack, Andar Bahar with eSewa & Khalti deposits. Nepal's #1 trusted live casino with instant withdrawals.
             </p>
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 mb-8 sm:mb-10 px-2 sm:px-0">
               <motion.button
