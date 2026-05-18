@@ -36,17 +36,18 @@ const particles = [
 ];
 
 const HEADLINES = [
-  { en: "Dominate the Game", ne: "खेलमा राज गर्नुहोस्" },
-  { en: "Bet & Win Big",     ne: "बेट गर्नुहोस् र जित्नुहोस्" },
-  { en: "Esports Champion",  ne: "इस्पोर्ट्स च्याम्पियन" },
-  { en: "Live Casino King",  ne: "लाइभ क्यासिनो किङ" },
+  { en: "Nepal's #1 Betting Site", ne: "नेपालको #१ बेटिङ साइट" },
+  { en: "eSewa & Khalti Betting", ne: "eSewa र Khalti बेटिङ" },
+  { en: "IPL 2026 Cricket Betting", ne: "IPL 2026 क्रिकेट बेटिङ" },
+  { en: "Teen Patti & Aviator", ne: "Teen Patti र Aviator" },
+  { en: "Fast Withdrawal Nepal", ne: "नेपालमा छिटो निकासी" },
 ];
 
 const FEATURES = [
-  { icon: "🏏", label: "Cricket Betting", ne: "क्रिकेट बेटिङ" },
-  { icon: "⚽", label: "Football Odds",  ne: "फुटबल अड्स" },
-  { icon: "🎮", label: "Esports Tournaments", ne: "इस्पोर्ट्स" },
-  { icon: "🎰", label: "Live Casino",    ne: "लाइभ क्यासिनो" },
+  { icon: "🏏", label: "IPL Cricket Betting", ne: "IPL क्रिकेट बेटिङ" },
+  { icon: "⚽", label: "Football Betting Nepal", ne: "फुटबल बेटिङ नेपाल" },
+  { icon: "�", label: "Teen Patti Live", ne: "Teen Patti लाइभ" },
+  { icon: "✈️", label: "Aviator Game", ne: "Aviator खेल" },
 ];
 
 const TRUST_MESSAGES = [
