@@ -77,6 +77,11 @@ export const metadata: Metadata = {
     "basketball betting Nepal", "tennis betting Nepal",
     "horse racing betting Nepal", "esports betting Nepal",
     "virtual sports betting Nepal", "online sports betting Nepal",
+    // Live betting keywords
+    "live betting Nepal", "in-play betting Nepal", "live odds Nepal",
+    "real-time betting Nepal", "live sports betting Nepal",
+    "live cricket odds Nepal", "live football odds Nepal",
+    "cash out betting Nepal",
   ],
 };
 

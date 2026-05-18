@@ -88,6 +88,27 @@ export const metadata: Metadata = {
     "online gambling Nepal real money", "online betting Nepal mobile",
     "internet betting Nepal", "real money betting Nepal",
     "online betting Nepal payment methods",
+    // Beginner guide/how-to keywords
+    "xbetting guide for beginners Nepal", "how to bet in Nepal step by step",
+    "Nepal betting tutorial", "understanding betting odds Nepal",
+    "how to read betting odds in Nepal", "types of bets in Nepal",
+    "sports betting basics Nepal", "beginner sports betting Nepal",
+    "Nepal betting explained", "what is a sportsbook Nepal",
+    "Nepal betting terminology",
+    // Betting tips/predictions
+    "Nepal betting tips today", "Nepal betting predictions",
+    "Nepal cricket betting tips", "Nepal football betting tips",
+    "betting strategy Nepal", "best betting strategy for Nepalese bettors",
+    "how to win at sports betting Nepal", "value betting Nepal",
+    "handicap betting Nepal", "over/under betting Nepal",
+    "accumulator betting Nepal", "live betting tips Nepal",
+    // Comparison/review keywords
+    "Nepal betting site comparison", "compare betting sites Nepal",
+    "Nepal betting site review 2025", "best odds betting site Nepal",
+    "highest bonus betting site Nepal", "betting site with best welcome bonus Nepal",
+    "1xBet Nepal review", "Bet365 Nepal review", "Parimatch Nepal review",
+    "Melbet Nepal review", "22Bet Nepal review", "Betway Nepal review",
+    "which sportsbook is best for Nepal", "pros and cons of betting sites Nepal",
   ],
 };
 

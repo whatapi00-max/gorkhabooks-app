@@ -47,6 +47,17 @@ export const metadata: Metadata = {
     "is sports betting taxed in Nepal",
     "which betting sites are available in Nepal",
     "which betting sites accept Nepalese players",
+    // Location/regulatory keywords
+    "online betting Kathmandu", "betting sites Nepal Rupee",
+    "NPR betting deposit", "betting in Pokhara Nepal",
+    "sports gambling Nepal law", "Nepal gambling regulations",
+    "Nepal Rastriya Banijya Bank betting",
+    // Responsible gambling/cryptocurrency keywords
+    "responsible gambling Nepal", "problem gambling help Nepal",
+    "Nepal betting age limit", "cryptocurrency betting Nepal",
+    "Bitcoin betting Nepal", "USDT betting Nepal", "VPN betting Nepal",
+    "betting with VPN in Nepal", "anonymous betting Nepal",
+    "PayPal betting Nepal alternatives",
   ],
 };
 

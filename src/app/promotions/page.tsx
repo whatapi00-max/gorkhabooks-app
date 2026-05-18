@@ -42,6 +42,11 @@ export const metadata: Metadata = {
     "Nepal betting site bonus", "betting site welcome offer Nepal",
     "Nepal betting apps", "betting apps Nepal Android",
     "betting apps Nepal iOS", "Nepal betting site registration",
+    // Additional bonus keywords
+    "Nepal betting bonus", "betting welcome bonus Nepal",
+    "free bets Nepal", "no deposit bonus Nepal betting",
+    "Nepal betting promo code", "reload bonus Nepal betting",
+    "VIP betting rewards Nepal", "cashback betting Nepal",
   ],
 };
 

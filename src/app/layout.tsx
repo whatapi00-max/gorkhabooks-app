@@ -299,6 +299,46 @@ export const metadata: Metadata = {
     "volleyball betting Nepal", "basketball betting Nepal",
     "tennis betting Nepal", "horse racing betting Nepal",
     "virtual sports betting Nepal",
+    // Additional beginner guide/how-to keywords
+    "xbetting guide for beginners Nepal", "how to bet in Nepal step by step",
+    "Nepal betting tutorial", "understanding betting odds Nepal",
+    "how to read betting odds in Nepal", "types of bets in Nepal",
+    "sports betting basics Nepal", "beginner sports betting Nepal",
+    "Nepal betting explained", "what is a sportsbook Nepal",
+    "Nepal betting terminology",
+    // Betting tips/predictions
+    "Nepal betting tips today", "Nepal betting predictions",
+    "Nepal cricket betting tips", "Nepal football betting tips",
+    "betting strategy Nepal", "best betting strategy for Nepalese bettors",
+    "how to win at sports betting Nepal", "value betting Nepal",
+    "handicap betting Nepal", "over/under betting Nepal",
+    "accumulator betting Nepal", "live betting tips Nepal",
+    // Comparison/review keywords
+    "Nepal betting site comparison", "compare betting sites Nepal",
+    "Nepal betting site review 2025", "best odds betting site Nepal",
+    "highest bonus betting site Nepal", "betting site with best welcome bonus Nepal",
+    "1xBet Nepal review", "Bet365 Nepal review", "Parimatch Nepal review",
+    "Melbet Nepal review", "22Bet Nepal review", "Betway Nepal review",
+    "which sportsbook is best for Nepal", "pros and cons of betting sites Nepal",
+    // Live betting keywords
+    "live betting Nepal", "in-play betting Nepal", "live odds Nepal",
+    "real-time betting Nepal", "live cricket odds Nepal",
+    "live football odds Nepal", "cash out betting Nepal",
+    // Bonus keywords
+    "Nepal betting bonus", "betting welcome bonus Nepal",
+    "free bets Nepal", "no deposit bonus Nepal betting",
+    "Nepal betting promo code", "reload bonus Nepal betting",
+    "VIP betting rewards Nepal", "cashback betting Nepal",
+    // Location/regulatory keywords
+    "betting in Pokhara Nepal", "betting sites Nepal Rupee",
+    "sports gambling Nepal law", "Nepal gambling regulations",
+    "Nepal Rastriya Banijya Bank betting",
+    // Responsible gambling/cryptocurrency keywords
+    "responsible gambling Nepal", "problem gambling help Nepal",
+    "cryptocurrency betting Nepal", "Bitcoin betting Nepal",
+    "USDT betting Nepal", "VPN betting Nepal",
+    "betting with VPN in Nepal", "anonymous betting Nepal",
+    "PayPal betting Nepal alternatives",
     // Nepali keywords
     "नेपालको भरोसेमान्य बुक", "कानूनी बेटिङ नेपाल", "सुरक्षित गेमिङ नेपाल",
     "निष्पक्ष खेल नेपाल", "अनलाइन बेटिङ नेपाल", "क्रिकेट बेटिङ नेपाल",
