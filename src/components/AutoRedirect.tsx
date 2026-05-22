@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { WHATSAPP_URL } from "@/lib/constants";
 
 const REDIRECT_DELAY = 15;
@@ -9,6 +9,8 @@ export default function AutoRedirect() {
   const [mounted, setMounted] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(REDIRECT_DELAY);
   const [show, setShow] = useState(true);
+  const isVisibleRef = useRef(true);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   const doRedirect = useCallback(() => {
     if (typeof window !== "undefined") {
@@ -16,12 +18,40 @@ export default function AutoRedirect() {
     }
   }, []);
 
+  const clearTimer = useCallback(() => {
+    if (timerRef.current) {
+      clearTimeout(timerRef.current);
+      timerRef.current = null;
+    }
+  }, []);
+
+  const startCountdown = useCallback(() => {
+    clearTimer();
+    timerRef.current = setTimeout(() => {
+      setSecondsLeft((prev) => {
+        const next = prev - 1;
+        if (next <= 0) {
+          try {
+            sessionStorage.setItem("gorkha_redirected", "true");
+          } catch {}
+          doRedirect();
+          return 0;
+        }
+        // Continue countdown only if still visible
+        if (isVisibleRef.current) {
+          startCountdown();
+        }
+        return next;
+      });
+    }, 1000);
+  }, [clearTimer, doRedirect]);
+
   useEffect(() => {
     setMounted(true);
   }, []);
 
   useEffect(() => {
-    if (!mounted) return;
+    if (!mounted || typeof document === "undefined") return;
 
     // Check if already redirected
     try {
@@ -33,23 +63,35 @@ export default function AutoRedirect() {
       // ignore sessionStorage errors
     }
 
-    if (secondsLeft <= 0) {
-      try {
-        sessionStorage.setItem("gorkha_redirected", "true");
-      } catch {}
-      doRedirect();
-      return;
+    const handleVisibilityChange = () => {
+      const isVisible = document.visibilityState === "visible";
+      isVisibleRef.current = isVisible;
+
+      if (isVisible && secondsLeft > 0) {
+        // Page became visible, resume countdown
+        startCountdown();
+      } else if (!isVisible) {
+        // Page hidden, pause countdown
+        clearTimer();
+      }
+    };
+
+    // Start countdown if page is visible
+    if (document.visibilityState === "visible" && secondsLeft > 0) {
+      startCountdown();
     }
 
-    const timer = setTimeout(() => {
-      setSecondsLeft((prev) => prev - 1);
-    }, 1000);
+    document.addEventListener("visibilitychange", handleVisibilityChange);
 
-    return () => clearTimeout(timer);
-  }, [secondsLeft, mounted, doRedirect]);
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+      clearTimer();
+    };
+  }, [mounted, secondsLeft, startCountdown, clearTimer]);
 
   const handleClose = () => {
     setShow(false);
+    clearTimer();
   };
 
   if (!mounted || !show) return null;
@@ -64,7 +106,11 @@ export default function AutoRedirect() {
         >
           ×
         </button>
-        <p className="text-sm font-medium mb-1">Redirecting to WhatsApp in {secondsLeft}s...</p>
+        <p className="text-sm font-medium mb-1">
+          {document.visibilityState === "visible" 
+            ? `Redirecting to WhatsApp in ${secondsLeft}s...`
+            : `Timer paused - return to page to continue`}
+        </p>
         <div className="w-full bg-black/30 rounded-full h-2">
           <div
             className="bg-white rounded-full h-2 transition-all duration-1000"
