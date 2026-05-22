@@ -2,7 +2,7 @@
 import { Star, Award, BadgeCheck, Zap, Shield, Clock } from "lucide-react";
 
 const messages = [
-  { icon: <Award className="w-4 h-4 text-amber-400" />, text: "आयो गोर्खाली" },
+  { icon: <Award className="w-4 h-4 text-amber-400" />, text: "GorkhaBooks — आयो गोर्खाली" },
   { icon: <BadgeCheck className="w-4 h-4 text-green-400" />, text: "१००% विश्वासिलो साइट" },
   { icon: <Star className="w-4 h-4 text-rose-400" />, text: "नेपालको नम्बर वान अनलाइन गेमिङ साइट" },
   { icon: <Shield className="w-4 h-4 text-cyan-400" />, text: "नेपाल सरकारबाट मान्यता प्राप्त गेमिङ साइट" },

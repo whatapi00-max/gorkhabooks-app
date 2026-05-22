@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ChevronDown, Zap, MessageCircle } from "lucide-react";
@@ -35,9 +36,14 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-9 h-9 md:w-10 md:h-10 bg-gradient-to-br from-red-600 to-rose-500 rounded-xl flex items-center justify-center shadow-lg shadow-red-500/30 group-hover:shadow-red-500/50 transition-all duration-300">
-                <span className="text-white font-black text-lg md:text-xl">G</span>
-              </div>
+              <Image
+                src="/logo.png"
+                alt={SITE_NAME}
+                width={72}
+                height={72}
+                className="w-16 h-16 md:w-[72px] md:h-[72px] object-contain drop-shadow-[0_0_12px_rgba(239,68,68,0.6)]"
+                priority
+              />
               <div className="flex flex-col leading-tight">
                 <span className="gradient-text-crimson font-black text-lg md:text-xl tracking-tight">
                   {SITE_NAME}
@@ -124,9 +130,13 @@ export default function Navbar() {
               <div className="p-5 sm:p-6 pb-[max(24px,env(safe-area-inset-bottom))]">
                 <div className="flex items-center justify-between mb-8">
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 bg-gradient-to-br from-red-600 to-rose-500 rounded-lg flex items-center justify-center">
-                      <span className="text-white font-black text-base">G</span>
-                    </div>
+                    <Image
+                      src="/logo.png"
+                      alt={SITE_NAME}
+                      width={56}
+                      height={56}
+                      className="w-12 h-12 object-contain drop-shadow-[0_0_12px_rgba(239,68,68,0.6)]"
+                    />
                     <span className="gradient-text-crimson font-black text-lg">{SITE_NAME}</span>
                   </div>
                   <button

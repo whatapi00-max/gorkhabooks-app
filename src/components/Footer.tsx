@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { MessageCircle, Mail, Phone, Shield, Award, Clock } from "lucide-react";
 import { openWhatsApp } from "@/lib/utils";
@@ -37,9 +38,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 sm:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2.5 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-red-600 to-rose-500 rounded-xl flex items-center justify-center">
-                <span className="text-white font-black text-xl">G</span>
-              </div>
+              <Image
+                src="/logo.png"
+                alt={SITE_NAME}
+                width={64}
+                height={64}
+                className="w-16 h-16 object-contain drop-shadow-[0_0_12px_rgba(239,68,68,0.6)]"
+              />
               <div>
                 <span className="gradient-text-crimson font-black text-xl">{SITE_NAME}</span>
                 <p className="text-blue-400/60 text-xs">gorkha.com · नेपालको #१</p>

@@ -1,6 +1,7 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
 import { MessageCircle, X } from "lucide-react";
+import Image from "next/image";
 import { useState } from "react";
 import { openWhatsApp } from "@/lib/utils";
 
@@ -19,8 +20,8 @@ export default function FloatingWhatsApp() {
           >
             <div className="flex items-start justify-between mb-2">
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
-                  <MessageCircle className="w-4 h-4 text-white" />
+                <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center overflow-hidden">
+                  <Image src="/logo.png" alt="GorkhaBooks" width={32} height={32} className="w-full h-full object-contain" />
                 </div>
                 <div>
                   <p className="text-white font-bold text-sm">GorkhaBooks Support</p>

@@ -1,11 +1,13 @@
 "use client";
 import { motion } from "framer-motion";
 import { MessageCircle, Zap } from "lucide-react";
+import Image from "next/image";
 import { openWhatsApp } from "@/lib/utils";
 
 export default function MobileBottomCTA() {
   return (
     <div className="mobile-cta-bar items-center gap-3 pb-safe">
+      <Image src="/logo.png" alt="G" width={28} height={28} className="w-7 h-7 object-contain" />
       <div className="flex items-center gap-1.5">
         <span className="w-2 h-2 rounded-full bg-cyan-400 live-dot" />
         <span className="text-cyan-400 text-xs font-semibold whitespace-nowrap">5,240+ Online</span>

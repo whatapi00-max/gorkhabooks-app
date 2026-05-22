@@ -1,6 +1,7 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
+import Image from "next/image";
 import { useState } from "react";
 import { TESTIMONIALS } from "@/lib/constants";
 
@@ -20,6 +21,7 @@ export default function TestimonialsSection() {
           className="text-center mb-14"
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-500/10 border border-red-500/30 mb-4">
+            <Image src="/logo.png" alt="G" width={24} height={24} className="w-6 h-6 object-contain" />
             <Star className="w-4 h-4 text-red-400 fill-red-400" />
             <span className="text-red-400 text-sm font-semibold">वास्तविक खेलाडीहरूको राय · Real Player Reviews</span>
           </div>

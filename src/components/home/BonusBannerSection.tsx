@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { MessageCircle, Zap, Gift, Clock, Flame } from "lucide-react";
+import Image from "next/image";
 import { openWhatsApp } from "@/lib/utils";
 
 export default function BonusBannerSection() {
@@ -30,6 +31,7 @@ export default function BonusBannerSection() {
               {/* LEFT */}
               <div>
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-500/10 border border-red-500/30 mb-6">
+                  <Image src="/logo.png" alt="G" width={24} height={24} className="w-6 h-6 object-contain" />
                   <Flame className="w-4 h-4 text-red-400" />
                   <span className="text-red-400 text-sm font-bold">🎁 वेलकम बोनस अफर — सीमित समय!</span>
                 </div>

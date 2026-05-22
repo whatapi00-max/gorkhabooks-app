@@ -113,6 +113,7 @@ export default function HeroSection() {
               transition={{ duration: 0.5 }}
               className="inline-flex flex-wrap items-center gap-2 px-3 sm:px-4 py-1.5 rounded-full glass-crimson mb-6 sm:mb-7 max-w-full"
             >
+              <Image src="/logo.png" alt="G" width={24} height={24} className="w-6 h-6 object-contain" />
               <span className="w-2 h-2 rounded-full bg-red-400 live-dot" />
               <Flame className="w-3.5 h-3.5 text-red-400" />
               <span className="text-red-400 text-xs sm:text-sm font-bold">नेपालको #१ गेमिङ प्लेटफर्म · Nepal&apos;s #1 Gaming Platform</span>
