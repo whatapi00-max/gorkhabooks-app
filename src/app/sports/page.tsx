@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   title: "Sports Betting Nepal 2026 – Best Betting Site Nepal | Cricket, IPL, Football | GorkhaBooks",
   description:
     "GorkhaBooks – नेपालको सबैभन्दा राम्रो स्पोर्ट्स बेटिङ साइट। IPL 2026, क्रिकेट, Premier League, Champions League, Kabaddi। eSewa, Khalti, IME Pay। Best odds Nepal। Nepal bookmaker – 1000+ daily matches, live betting, instant payout.",
-  alternates: { canonical: "https://gorkha.com/sports" },
+  alternates: { canonical: "https://www.gorkha777.com/sports" },
   openGraph: {
     title: "Best Sports Betting Site Nepal 2026 – Cricket, IPL, Football | GorkhaBooks",
     description: "Bet on 1000+ daily matches at GorkhaBooks – Nepal's #1 trusted & legal sports betting platform. IPL, Premier League, PUBG, Free Fire. eSewa & Khalti.",
-    url: "https://gorkha.com/sports",
+    url: "https://www.gorkha777.com/sports",
     type: "website",
-    images: [{ url: "https://gorkha.com/opengraph-image", width: 1200, height: 630, alt: "GorkhaBooks Sports Betting Nepal" }],
+    images: [{ url: "https://www.gorkha777.com/opengraph-image", width: 1200, height: 630, alt: "GorkhaBooks Sports Betting Nepal" }],
   },
   keywords: [
     // Core sports betting Nepal

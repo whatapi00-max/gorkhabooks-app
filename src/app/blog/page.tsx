@@ -5,14 +5,14 @@ export const metadata: Metadata = {
   title: "Online Betting Nepal Guide 2026 – How to Bet, Casino Guides, IPL Tips | GorkhaBooks Blog",
   description:
     "Nepal's #1 online betting guide blog. How to bet online in Nepal, eSewa vs Khalti payment guide, IPL 2026 predictions, Teen Patti strategy, beginner betting guide, withdrawal tips, site comparisons. GorkhaBooks expert articles – updated daily.",
-  alternates: { canonical: "https://gorkha.com/blog" },
+  alternates: { canonical: "https://www.gorkha777.com/blog" },
   openGraph: {
     title: "Online Betting Nepal Guide 2026 – How to Bet, IPL Tips, Casino Guides | GorkhaBooks Blog",
     description:
       "Complete online betting guides for Nepal players. IPL predictions, payment method guides, Teen Patti strategy, beginner tutorials, site comparisons. Updated daily by GorkhaBooks experts.",
-    url: "https://gorkha.com/blog",
+    url: "https://www.gorkha777.com/blog",
     type: "website",
-    images: [{ url: "https://gorkha.com/opengraph-image", width: 1200, height: 630, alt: "GorkhaBooks Blog – Online Betting Nepal Guide" }],
+    images: [{ url: "https://www.gorkha777.com/opengraph-image", width: 1200, height: 630, alt: "GorkhaBooks Blog – Online Betting Nepal Guide" }],
   },
   twitter: {
     card: "summary_large_image",

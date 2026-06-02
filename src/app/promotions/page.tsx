@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   title: "Deposit Bonus Nepal – eSewa Khalti Betting Bonus 2026 | GorkhaBooks Promotions",
   description:
     "GorkhaBooks – नेपालको सबैभन्दा राम्रो बेटिङ बोनस। 100% Welcome Bonus NPR 10,000। eSewa, Khalti, IME Pay deposit bonus। Weekly cashback, referral bonus, VIP rewards। Deposit bonus Nepal betting – claim instantly via WhatsApp.",
-  alternates: { canonical: "https://gorkha.com/promotions" },
+  alternates: { canonical: "https://www.gorkha777.com/promotions" },
   openGraph: {
     title: "Betting Deposit Bonus Nepal – eSewa & Khalti Casino Bonus 2026 | GorkhaBooks",
     description: "Nepal's best betting bonuses – 100% welcome bonus, eSewa Khalti deposit bonus, weekly cashback, referral & VIP rewards. Join GorkhaBooks for free!",
-    url: "https://gorkha.com/promotions",
+    url: "https://www.gorkha777.com/promotions",
     type: "website",
-    images: [{ url: "https://gorkha.com/opengraph-image", width: 1200, height: 630, alt: "GorkhaBooks Bonuses Nepal" }],
+    images: [{ url: "https://www.gorkha777.com/opengraph-image", width: 1200, height: 630, alt: "GorkhaBooks Bonuses Nepal" }],
   },
   keywords: [
     // Deposit & payment bonus — HIGH CONVERSION

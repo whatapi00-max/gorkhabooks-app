@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/_next/"],
     },
-    sitemap: "https://gorkha.com/sitemap.xml",
+    sitemap: "https://www.gorkha777.com/sitemap.xml",
   };
 }

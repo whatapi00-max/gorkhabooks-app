@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Online Betting Nepal | Best eSewa & Khalti Casino 2026 | GorkhaBooks",
   description:
     "GorkhaBooks – नेपालको #१ अनलाइन बेटिङ र क्यासिनो। eSewa, Khalti, IME Pay बाट जम्मा गर्नुहोस्। IPL क्रिकेट, फुटबल, Teen Patti, Aviator। ५ मिनेटमा निकासी। १००% Welcome Bonus NPR १०,०००। ५०,०००+ खेलाडी। Nepal's #1 trusted online betting site with eSewa Khalti deposit – fast withdrawal, real money casino, sports betting & live casino.",
-  alternates: { canonical: "https://gorkha.com" },
+  alternates: { canonical: "https://www.gorkha777.com" },
   keywords: [
     // Brand — नेपाली र अंग्रेजी
     "GorkhaBooks", "गोर्खाबुक्स", "gorkha.com", "Gorkha bet Nepal",

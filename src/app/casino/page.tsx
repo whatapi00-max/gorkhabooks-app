@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   title: "Online Casino Nepal 2026 – Teen Patti, Aviator, Slots, Live Casino | GorkhaBooks",
   description:
     "GorkhaBooks – नेपालको #१ अनलाइन क्यासिनो। Teen Patti, Andar Bahar, Aviator, Roulette, Blackjack, Slots। eSewa, Khalti, IME Pay। Real money casino Nepal – fast withdrawal, NPR minimum deposit. Best casino site Nepal 2026.",
-  alternates: { canonical: "https://gorkha.com/casino" },
+  alternates: { canonical: "https://www.gorkha777.com/casino" },
   openGraph: {
     title: "Online Casino Nepal 2026 – Teen Patti, Aviator, Slots | GorkhaBooks",
     description: "Nepal's #1 trusted & legal live casino. Teen Patti, Andar Bahar, Aviator, Roulette, Blackjack, Slots & Jackpot NPR 2,50,000. eSewa & Khalti. Join GorkhaBooks!",
-    url: "https://gorkha.com/casino",
+    url: "https://www.gorkha777.com/casino",
     type: "website",
-    images: [{ url: "https://gorkha.com/opengraph-image", width: 1200, height: 630, alt: "GorkhaBooks Live Casino Nepal" }],
+    images: [{ url: "https://www.gorkha777.com/opengraph-image", width: 1200, height: 630, alt: "GorkhaBooks Live Casino Nepal" }],
   },
   keywords: [
     // Core casino Nepal

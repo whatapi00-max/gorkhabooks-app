@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   title: "Trusted Betting Site Nepal – Legal & Licensed Casino 2026 | About GorkhaBooks",
   description:
     "GorkhaBooks – नेपालको सबैभन्दा भरोसेमान्य र कानूनी अनलाइन बेटिङ प्लेटफर्म। ५०,०००+ खेलाडी। 256-bit SSL। Nepal's most trusted, legal & licensed betting site since 2020. Safe, certified, transparent – eSewa & Khalti accepted.",
-  alternates: { canonical: "https://gorkha.com/about" },
+  alternates: { canonical: "https://www.gorkha777.com/about" },
   openGraph: {
     title: "Trusted & Legal Betting Site Nepal 2026 | About GorkhaBooks",
     description: "GorkhaBooks – Nepal's most trusted, legal & licensed gaming platform. 50,000+ verified players. Founded 2020. 256-bit SSL. eSewa & Khalti.",
-    url: "https://gorkha.com/about",
+    url: "https://www.gorkha777.com/about",
     type: "website",
-    images: [{ url: "https://gorkha.com/opengraph-image", width: 1200, height: 630, alt: "About GorkhaBooks Nepal" }],
+    images: [{ url: "https://www.gorkha777.com/opengraph-image", width: 1200, height: 630, alt: "About GorkhaBooks Nepal" }],
   },
   keywords: [
     // Trust & legal — strategy core targets
