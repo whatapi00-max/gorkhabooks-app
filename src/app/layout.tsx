@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { Inter } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -765,106 +764,6 @@ const websiteJsonLd = {
   },
 };
 
-const sportsBettingOrgJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "SportsBettingOrganization",
-  "name": "GorkhaBooks",
-  "alternateName": "Gorkha Gaming Nepal",
-  "url": "https://gorkha.com",
-  "description": "Nepal's #1 trusted online sports betting platform offering cricket, football, kabaddi, tennis and esports betting with eSewa, Khalti and IME Pay payment options.",
-  "logo": "https://gorkha.com/logo.png",
-  "address": {
-    "@type": "PostalAddress",
-    "addressCountry": "NP",
-    "addressLocality": "Kathmandu",
-    "addressRegion": "Bagmati Province",
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "customer support",
-    "availableLanguage": ["English", "Nepali"],
-    "contactOption": "TollFree",
-    "hoursAvailable": "Mo-Su 00:00-23:59",
-  },
-  "paymentAccepted": "eSewa, Khalti, IME Pay, FonePay, ConnectIPS, Bank Transfer",
-  "currenciesAccepted": "NPR",
-  "areaServed": "NP",
-  "foundingDate": "2020",
-  "numberOfEmployees": "50+",
-  "sameAs": ["https://wa.link/gme782", "https://t.me/GorkhaBooks"],
-};
-
-const gamblingSiteJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "GamblingSite",
-  "name": "GorkhaBooks",
-  "alternateName": "Gorkha Gaming Nepal",
-  "url": "https://gorkha.com",
-  "description": "Nepal's #1 trusted online casino and betting site offering live casino games, slots, sports betting and esports with fast eSewa/Khalti withdrawals.",
-  "logo": "https://gorkha.com/logo.png",
-  "address": {
-    "@type": "PostalAddress",
-    "addressCountry": "NP",
-    "addressLocality": "Kathmandu",
-    "addressRegion": "Bagmati Province",
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "customer support",
-    "availableLanguage": ["English", "Nepali"],
-    "contactOption": "TollFree",
-    "hoursAvailable": "Mo-Su 00:00-23:59",
-  },
-  "paymentAccepted": "eSewa, Khalti, IME Pay, FonePay, ConnectIPS, Bank Transfer",
-  "currenciesAccepted": "NPR",
-  "areaServed": "NP",
-  "foundingDate": "2020",
-  "sameAs": ["https://wa.link/gme782", "https://t.me/GorkhaBooks"],
-};
-
-const breadcrumbListJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://gorkha.com",
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Sports Betting",
-      "item": "https://gorkha.com/sports",
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Live Casino",
-      "item": "https://gorkha.com/casino",
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Promotions",
-      "item": "https://gorkha.com/promotions",
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
-      "name": "About Us",
-      "item": "https://gorkha.com/about",
-    },
-    {
-      "@type": "ListItem",
-      "position": 6,
-      "name": "Blog",
-      "item": "https://gorkha.com/blog",
-    },
-  ],
-};
-
 const faqJsonLd = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -1043,44 +942,20 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <meta name="theme-color" content="#03040a" />
         <meta name="msapplication-TileColor" content="#03040a" />
-      </head>
-      <body className="min-h-full flex flex-col bg-[#03040a] text-white" suppressHydrationWarning>
-        <Script
-          id="ld-org"
+        <script
           type="application/ld+json"
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <Script
-          id="ld-faq"
+        <script
           type="application/ld+json"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-        />
-        <Script
-          id="ld-website"
-          type="application/ld+json"
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
-        <Script
-          id="ld-sportsbetting"
+        <script
           type="application/ld+json"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(sportsBettingOrgJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
-        <Script
-          id="ld-gambling"
-          type="application/ld+json"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(gamblingSiteJsonLd) }}
-        />
-        <Script
-          id="ld-breadcrumb"
-          type="application/ld+json"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbListJsonLd) }}
-        />
+      </head>
+      <body className="min-h-full flex flex-col bg-[#03040a] text-white" suppressHydrationWarning>
         <AutoRedirect />
         <ScrollProgress />
         <Navbar />
