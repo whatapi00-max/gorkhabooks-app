@@ -5,17 +5,27 @@ import { WHATSAPP_URL } from "@/lib/constants";
 
 const REDIRECT_DELAY = 15;
 
+function isBot(): boolean {
+  if (typeof navigator === "undefined") return true;
+  const ua = navigator.userAgent.toLowerCase();
+  return /bot|crawl|spider|google|bing|yahoo|yandex|duckduck|facebook|twitter|linkedin|whatsapp|telegram|slurp|baidu|semrush|ahrefs|moz|screaming/i.test(ua);
+}
+
 export default function AutoRedirect() {
   const [mounted, setMounted] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(REDIRECT_DELAY);
   const [show, setShow] = useState(true);
-  const isVisibleRef = useRef(true);
+  const [paused, setPaused] = useState(false);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const redirectedRef = useRef(false);
 
   const doRedirect = useCallback(() => {
-    if (typeof window !== "undefined") {
-      window.location.href = WHATSAPP_URL;
-    }
+    if (typeof window === "undefined" || redirectedRef.current) return;
+    redirectedRef.current = true;
+    // Use window.open to open WhatsApp in new tab — NOT window.location.href
+    // This keeps the page intact for Google and doesn't create a redirect chain
+    window.open(WHATSAPP_URL, "_blank", "noopener,noreferrer");
+    setShow(false);
   }, []);
 
   const clearTimer = useCallback(() => {
@@ -25,23 +35,16 @@ export default function AutoRedirect() {
     }
   }, []);
 
-  const startCountdown = useCallback(() => {
+  const tick = useCallback(() => {
     clearTimer();
     timerRef.current = setTimeout(() => {
       setSecondsLeft((prev) => {
-        const next = prev - 1;
-        if (next <= 0) {
-          try {
-            sessionStorage.setItem("gorkha_redirected", "true");
-          } catch {}
+        if (prev <= 1) {
+          try { sessionStorage.setItem("gorkha_redirected", "true"); } catch {}
           doRedirect();
           return 0;
         }
-        // Continue countdown only if still visible
-        if (isVisibleRef.current) {
-          startCountdown();
-        }
-        return next;
+        return prev - 1;
       });
     }, 1000);
   }, [clearTimer, doRedirect]);
@@ -51,7 +54,13 @@ export default function AutoRedirect() {
   }, []);
 
   useEffect(() => {
-    if (!mounted || typeof document === "undefined") return;
+    if (!mounted || typeof window === "undefined") return;
+
+    // Don't run for bots/crawlers — this is the key SEO fix
+    if (isBot()) {
+      setShow(false);
+      return;
+    }
 
     // Check if already redirected
     try {
@@ -60,38 +69,44 @@ export default function AutoRedirect() {
         return;
       }
     } catch {
-      // ignore sessionStorage errors
+      // ignore
     }
 
-    const handleVisibilityChange = () => {
-      const isVisible = document.visibilityState === "visible";
-      isVisibleRef.current = isVisible;
-
-      if (isVisible && secondsLeft > 0) {
-        // Page became visible, resume countdown
-        startCountdown();
-      } else if (!isVisible) {
-        // Page hidden, pause countdown
+    // Visibility handling
+    const handleVisibility = () => {
+      if (document.visibilityState === "visible") {
+        setPaused(false);
+        tick();
+      } else {
+        setPaused(true);
         clearTimer();
       }
     };
 
-    // Start countdown if page is visible
-    if (document.visibilityState === "visible" && secondsLeft > 0) {
-      startCountdown();
+    if (document.visibilityState === "visible") {
+      tick();
+    } else {
+      setPaused(true);
     }
 
-    document.addEventListener("visibilitychange", handleVisibilityChange);
-
+    document.addEventListener("visibilitychange", handleVisibility);
     return () => {
-      document.removeEventListener("visibilitychange", handleVisibilityChange);
+      document.removeEventListener("visibilitychange", handleVisibility);
       clearTimer();
     };
-  }, [mounted, secondsLeft, startCountdown, clearTimer]);
+  }, [mounted, tick, clearTimer]);
+
+  // Trigger next tick when secondsLeft changes (and still counting)
+  useEffect(() => {
+    if (!mounted || !show || secondsLeft <= 0 || paused) return;
+    tick();
+    return () => clearTimer();
+  }, [secondsLeft, mounted, show, paused, tick, clearTimer]);
 
   const handleClose = () => {
     setShow(false);
     clearTimer();
+    try { sessionStorage.setItem("gorkha_redirected", "true"); } catch {}
   };
 
   if (!mounted || !show) return null;
@@ -107,9 +122,9 @@ export default function AutoRedirect() {
           ×
         </button>
         <p className="text-sm font-medium mb-1">
-          {document.visibilityState === "visible" 
-            ? `Redirecting to WhatsApp in ${secondsLeft}s...`
-            : `Timer paused - return to page to continue`}
+          {paused
+            ? "Timer paused — come back to continue"
+            : `Opening WhatsApp in ${secondsLeft}s...`}
         </p>
         <div className="w-full bg-black/30 rounded-full h-2">
           <div
@@ -119,6 +134,8 @@ export default function AutoRedirect() {
         </div>
         <a
           href={WHATSAPP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
           className="block mt-2 text-center text-xs underline hover:text-emerald-200"
         >
           Click here to go now

@@ -623,12 +623,6 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://gorkha.com"),
   alternates: {
     canonical: "https://gorkha.com",
-    languages: {
-      "en": "https://gorkha.com",
-      "ne": "https://gorkha.com",
-      "ne-NP": "https://gorkha.com",
-      "en-NP": "https://gorkha.com",
-    },
   },
   category: "Online Gaming, Sports Betting & Esports",
   openGraph: {
