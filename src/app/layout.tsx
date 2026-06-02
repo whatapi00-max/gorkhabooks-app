@@ -627,7 +627,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_NP",
-    alternateLocale: ["ne_NP"],
     url: "https://gorkha.com",
     siteName: "GorkhaBooks – Nepal's #1 Gaming Platform",
     title: "GorkhaBooks – नेपालको #१ गेमिङ, बेटिङ र इस्पोर्ट्स प्लेटफर्म | gorkha.com",
