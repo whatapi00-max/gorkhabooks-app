@@ -1,4 +1,4 @@
-export const WHATSAPP_URL = "https://wa.link/gme782";
+export const WHATSAPP_URL = "https://wa.link/amg777_customer_support";
 
 export const SITE_NAME = "GorkhaBooks";
 export const SITE_DOMAIN = "gorkha.com";
